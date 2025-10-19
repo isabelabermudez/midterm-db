@@ -25,7 +25,7 @@ CREATE TABLE empleado(
     cargos VARCHAR(200),
     departamentos VARCHAR(100),
     usuario_id INT,
-    FOREIGN KEY (usuario_id) REFERENCES usuario(usuario_id),
+    FOREIGN KEY (usuario_id) REFERENCES usuario(usuario_id)
 );
 
 CREATE TABLE medio(

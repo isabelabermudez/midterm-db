@@ -5,7 +5,7 @@ INSERT INTO tipos_usuario VALUES
     (4,'contratistas'),
     (5,'visitantes'),
     (6,'socios'),
-    (7,'practicantes'),
+    (7,'practicantes');
 
 INSERT INTO ciudad (ciudad_id,nombre,codigo_postal) VALUES
     (1,'Cali','760001'),
